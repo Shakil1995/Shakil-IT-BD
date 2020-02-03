@@ -1,0 +1,782 @@
+/* header area styel start heare*/
+
+body{
+    font-family: 'Titillium Web',sans-serif;
+}
+.header-area{
+    background: #87509c;
+    padding-top: px;
+    width: 100%;
+    height: 12%;
+    padding-bottom: 1px;
+
+   
+     ;
+}
+
+
+.header-top::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-top{
+
+    padding-top: 25px;
+    padding-bottom: 23px;
+    width:100%  ;
+    height:50px ;
+    margin-bottom: 0px;
+  ; 
+}
+.logo-area{
+    width: 50%;
+    float: left;
+    padding-left: 150px;
+    height: 1;
+}
+.main-menu{
+    width: 40%;
+    float: right;
+    padding-right: 100px;
+    color: rgb(240, 232, 232);
+}
+.main-menu ul{
+margin: 0;
+padding: 12px;
+float: right;
+}
+.main-menu ul li{
+    float: left;
+}
+.main-menu ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-menu ul li a {
+    padding: 5px 15px;
+    display: block;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+.main-menu ul li a:hover,.main-menu ul li a.active{
+    background: #643a79;
+}
+.header-bottom{
+    padding: 100px 0;
+    text-align: center;
+
+}
+.header-bottom h2{
+    color: #f7f3ea;
+    font-size: 43px;
+    line-height: 48px;
+}
+.call-to-action-header a{
+
+    background: #eb7d4b;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 0px 5px 0px #c86a40 ; 
+}
+.call-to-action-header a:hover{
+    box-shadow: 0px 0px 0px ;
+    background:#fb7a3f ; 
+}
+/* header area styel end heare*/
+
+
+.silder-area{
+    width: 100%;
+    height: 700px;
+    background: gray;
+}
+
+
+.silder-area.silder-box{
+    width: 100%;
+    height: 100%;
+}
+.silder-area .silder-box:after{
+    contain: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services area styel start heare*/
+
+.services-area{
+background: #17c2a4;
+padding: 50px 0;
+    }
+.services-area .container > h2{
+   font-size: 40px;
+   color: #fff;
+   margin: 0;
+   padding-top: 50px; 
+   text-align: center;
+   letter-spacing: 3px;
+}
+.services-area .container > p{
+font-size: 19px;
+color: #fff;
+width: 50%;
+text-align: center;
+margin: auto;
+}
+.services-area hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #c8d9e5;
+    width: 10%;
+}
+.serbices-boxes{
+    text-align: center;
+    margin-top: 50px;
+}
+.serbices-boxes .box h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.serbices-boxes .box p{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+/* header area styel end heare*/
+
+
+
+/* team member  area styel start heare*/
+
+
+.team-area{
+    background: #e7f1f8;
+    padding: 50px 0;
+        }
+    .team-area .container> h2{
+       font-size: 40px;
+       color: #3c495a;
+       margin: 0;
+       padding-top: 50px; 
+       text-align: center;
+       letter-spacing: 3px;
+    }
+    .team-area .container > p{
+    font-size: 19px;
+    color: #27283d;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    }
+    .team-area hr{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #27283d;
+        width: 10%;
+    }
+    .team-boxes{
+        text-align: center;
+        margin-top: 50px;
+    }
+   
+    .team-boxes .box h2{
+        color: #3c495a;
+        letter-spacing: 1px;
+        margin: 10px 0;
+font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .team-boxes .box h3{
+        color: #87509c;
+        font-weight: normal;
+        font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .team-boxes .box p{
+        color: #3c495a;
+        width: 80%;
+        margin: auto;
+    }
+
+    .team-mem {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+   
+    .team-mem img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .soical-link ul{
+        margin: 20px 0;
+        padding: 0;
+        list-style: none;
+    }
+    .soical-link ul li{
+        display: inline-block;
+    }
+    .soical-link ul li i{
+        color: #fff;
+        background: #bbd1de;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 50%;
+    }
+    .soical-link ul li :hover{
+       background: #41b7e9;
+    }
+
+/* team menber  area styel end heare*/
+
+
+
+/* skills area styel start heare*/
+
+
+.skill-area {
+    background: #ffffff;
+    padding: 50px 0;
+        }
+
+    .skill-area .container > h2{
+       font-size: 40px;
+       color: #3c4761;
+       margin: 0;
+       padding-top: 50px; 
+       text-align: center;
+       letter-spacing: 3px;
+    }
+    .skill-area .container > p{
+    font-size: 19px;
+    color: #626a7d;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    }
+    .skill-area hr{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #c8d9e5;
+        width: 10%;
+    }
+    .skill-boxes{
+        text-align: center;
+        margin-top: 50px;
+    }
+   
+    .skill-boxes .box h2{
+        color: #3c4761;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .skill-boxes .box p{
+        color: #fff;
+        width: 80%;
+        margin: auto;
+    }
+
+
+/* skills area styel start heare*/
+
+
+
+
+/* portfolio area styel start heare*/
+
+
+.portfolio-area{
+    background: #ffdd99;
+    padding: 50px 0;
+        }
+    .portfolio-area .container > h2{
+       font-size: 40px;
+       color: #3c4761;
+       margin: 0;
+       padding-top: 50px; 
+       text-align: center;
+       letter-spacing: 3px;
+    }
+    .portfolio-area .container > p{
+    font-size: 19px;
+    color: #626a7d;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    }
+    .portfolio-area hr{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #c8d9e5;
+        width: 10%;
+    }
+    .portfolio-boxes{
+        text-align: center;
+        margin-top: 50px;
+    }
+   
+    .portfolio-boxes .box h2{
+        color: #3c4761;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: normal;
+        font-size: 18px;
+    }
+    .portfolio-boxes .box p{
+        color: #fff;
+        width: 80%;
+        margin: auto;
+    }
+    .protfolio-menu ul{
+        margin: 30px;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .protfolio-menu ul li{
+        display: inline-block;
+    }
+    .protfolio-menu ul li a{
+        color: #393a2c;
+    padding: 5px 25px;
+    display: block;
+    background: #ebc884;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    }
+    .protfolio-menu ul li a:hover{
+      background: #fff;  
+    }
+    .port-imge{
+        width: 500Px;
+margin: auto;
+    }
+    .port-imge img{
+        width: 100%;
+    }
+
+    .call-to-action-portfolio a{
+      
+        text-align: center;
+        background: #17c2a4;
+        padding: 10px 60px;
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 50px;
+        display: inline-block;
+        border-radius: 7px;
+        box-shadow: 0px 5px 0px #c86a40 ; 
+    }
+    .call-to-action-portfolio a:hover{
+        box-shadow: 0px 0px 0px ;
+        background:#1aceae ; 
+    }
+/* portfolio area styel end heare*/
+
+
+/* testimonial area styel start heare*/
+.testimonial-area{
+    background: #d74680;
+    padding: 50px 0;
+        }
+    .testimonial-area .container > h2{
+       font-size: 40px;
+       color: #ffff;
+       margin: 0;
+       padding-top: 50px; 
+       text-align: center;
+       letter-spacing: 3px;
+    }
+    .testimonial-area .container > p{
+    font-size: 19px;
+    color: #ffff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    }
+    .testimonial-area hr{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #c8d9e5;
+        width: 10%;
+    }
+    .testimonial-boxes{
+        text-align: center;
+        margin-top: 50px;
+    }
+ 
+    .testi-content h2{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-bottom: 5px;
+       }
+       .testi-content h3{
+        color: #ffdd99;
+        font-size: 18px;
+        margin-top: 0px;
+        font-weight: normal;
+       }
+    
+ .tasti-imge{
+   width: 110px;
+   height: 110px;  
+   float: left;
+   overflow: hidden;
+margin-right: 35px;
+ }
+ .tasti-imge img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+ }
+  
+ .testi-content{
+     width: 300px;
+     overflow: hidden;
+     text-align: left;
+ }
+
+ .testi-content q{
+     color: #fff;
+     font-style: italic;
+     font-size: 20px;
+ }
+/* testimonial area styel end heare*/
+
+
+/* contact area styel start heare*/
+.contact-area{
+    background: #3c5499;
+    padding: 50px 0;
+        }
+    .contact-area .container > h2{
+       font-size: 30px;
+       color: #ffffff;
+       margin: 0;
+       padding-top: 50px; 
+       padding-bottom: 10px;
+       text-align: center;
+       letter-spacing: 3px;
+    }
+    .contact-area .container > p{
+    font-size: 20px;
+    color: #fff99d;
+
+    text-align: center;
+    margin: auto;
+    }
+    .contact-area hr{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #c8d9e5;
+        width: 10%;
+    }
+   .contact-boxes{
+       width: 80%;
+       margin: auto;
+       padding-top: 50px;
+   }
+   .usernaem::after{
+       content: '';
+       display: block;
+       clear: both;
+
+   }
+   .usernaem{
+       margin-top: 10px;
+   }
+   .usernaem input{
+       font-size: 20px;
+       background: #273a71;
+       padding: 10px;
+       color: #fff;
+       border: 1px solid transparent;
+       box-sizing: border-box;
+       border-radius: 5px;
+       display: block;
+       width: 100%;
+   
+
+    }
+    
+   .usernaem .name-fild{
+       width: 49%;
+       float:left;
+       position: relative;
+   }
+   .name-fild h2{
+       color: #fff;
+   }
+   .usernaem .email-fild{
+    width: 49%;
+    float:right;
+    position: relative;
+}
+.email-fild h2{
+    color: #fff;
+}
+
+.name-fild label{
+  
+    color: #fff;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+  
+}
+.name-fild label span{
+    color: red;
+   
+}
+
+.email-fild label{
+    color: #fff;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.email-fild label span{
+    color: red;
+}
+
+.contact-boxes textarea{
+    width: 100%;
+    font-size: 20px;
+    background: #273a71;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.call-to-action-content {
+    text-align: center;
+}
+    
+    .call-to-action-content input{
+
+        background: #17c2a4;
+        padding: 10px 60px;
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 50px;
+        display: inline-block;
+        border-radius: 7px;
+        box-shadow: 0px 5px 0px #30bae7 ; 
+    border: ipx solid transparent;
+    }
+    .call-to-action-content  input:hover{
+        box-shadow: 0px 0px 0px ;
+        background:#30bae7 ; 
+    }
+/* contact area styel end heare*/
+
+
+.footer-area{
+
+    background: #344b8e;
+    padding: 40px;
+}
+.footer-menu ul{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+
+.footer-menu ul li a{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.footer-menu ul li a:hover{
+
+    color: #41b7e9;
+}
+
+/* jqueray plugin */
+.pie-title-center {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+  
+  .pie-value {
+    display: block;
+    position: absolute;
+    font-size: 44px;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -20px;
+    line-height: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+  /* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
